@@ -106,12 +106,13 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid #DFDFDF;
     flex-direction: column;
     width: 30%;
-    height: 12%;
+    height: 15%;
     margin: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
+    background-color: #F7F7F7;
 }
 
 .item{
@@ -119,10 +120,21 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70%;
-    border-bottom: 3px solid black;
+    height: 60%;
     background-image: url(images/carrots2.jpg);
     background-size: cover;
+}
+
+.card span {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
 }
 
 .buy{
@@ -130,6 +142,61 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 10%;
-    border: 2px solid black;
+    height: 8%;
+    border-radius: 1em 1em 1em 1em;
+    background-color: #006CF9;
+    color: white;
+}
+
+.buy:hover{
+    background-color: white;
+    color: #006CF9;
+    border: 1px black solid;
+}
+
+.secondary-image {
+    background-image: url(images/markus-spiske-vrbZVyX2k4I-unsplash2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.about {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.bio {
+    color: white;
+    font-size: 50px;
+    width: 45%;
+    height: 45%;
+}
+
+.profile-image {
+    width: 23%;
+    height: 35%;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: auto;
+}
+
+.profile-pic{
+    display: inline;
+    margin: 0 auto;
+    margin-left: -38%;
+    height: 100%;
+    width: auto;
 }
